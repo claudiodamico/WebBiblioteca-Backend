@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebBiblioteca</name>
+    </assembly>
+    <members>
+        <member name="M:WebBiblioteca.Controllers.AlquilerController.GetAll">
+            <summary>
+            Filtrar todos los Alquileres 
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.AlquilerController.GetAlquilerByID(System.Int32)">
+            <summary>
+            Filtrar los Alquileres por ID
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.AlquilerController.CreateAlquiler(WebBiblioteca.Domain.AlquilerDto)">
+            <summary>
+            Crear Alquiler 
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.AlquilerController.DeleteAlquiler(System.Int32)">
+            <summary>
+            Eliminar Alquiler 
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.AuthController.Login(System.String,System.String)">
+            <summary>
+            Login de Usuario 
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.ClienteController.GetAll">
+            <summary>
+            Filtrar todos los Clientes 
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.ClienteController.GetClienteByID(System.Int32)">
+            <summary>
+            Filtrar los Cliente por ID
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.ClienteController.GetClienteByDni(System.Int32)">
+            <summary>
+            Filtrar los Cliente por Dni
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.ClienteController.GetClienteByNroSocio(System.Guid)">
+            <summary>
+            Filtrar los Cliente por Numero de Socio
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.ClienteController.CreateCliente(WebBiblioteca.Domain.ClienteDto)">
+            <summary>
+            Crear Cliente
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.ClienteController.DeleteCliente(System.Int32)">
+            <summary>
+            Eliminar Cliente 
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.LibroController.GetAll">
+            <summary>
+            Filtrar todos los Libros 
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.LibroController.GetLibroID(System.Int32)">
+            <summary>
+            Filtrar los Libros por ID
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.LibroController.GetLibroISBN(System.String)">
+            <summary>
+            Filtrar los Libros por ISBN
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.LibroController.CreateLibro(WebBiblioteca.Domain.LibroDto)">
+            <summary>
+            Crear Libro
+            </summary>
+        </member>
+        <member name="M:WebBiblioteca.Controllers.LibroController.DeleteLibro(System.Int32)">
+            <summary>
+            Eliminar Libro 
+            </summary>
+        </member>
+        <member name="T:WebBiblioteca.Migrations.init">
+            <inheritdoc />
+        </member>
+        <member name="M:WebBiblioteca.Migrations.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebBiblioteca.Migrations.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebBiblioteca.Migrations.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
